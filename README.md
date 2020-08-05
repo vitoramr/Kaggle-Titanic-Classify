@@ -8,6 +8,7 @@ The purpose of this project was to apply new knowledge of Machine Learning and N
 The different programs try different approaches to the problem and achieve different accuracies.
 
 ## Data format
+The challenge data can be found [here](https://www.kaggle.com/c/titanic/data) and it consists of the following features
 
 * *survival* : 1 if the person survived, 0 otherwise. It is the variable to be predicted
 * *pclass*: Descbribes the ticket class. It is a proxy for socio-economic status (SES)
@@ -34,7 +35,12 @@ The different programs try different approaches to the problem and achieve diffe
   * Model: RandomForestClassifier from Sckit-learn
   * Features: Sex and Age to predict the model
   * Accuracy of 0.71291
-* Titanic 2
+* Titanic 4
+  * Model: Testing over 8 different prediction models
+  * More deep data analysis and Features engineering
+  * Hyperparameters tuning with sklearn.model_selection.SRandomizedSearchCV
+  * The best model was RandomForestClassifier
+  * Accuracy of 0.78229
 
 ## Acknowledgements
 
