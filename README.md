@@ -1,9 +1,9 @@
 # Kaggle - Titanic Challenge
 ## Machine Learning from Disaster
 
-This project uses the [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview) Kaggle Challenge to use data to predict whether a person that was in the Titanic survived or not to the disaster.
+This project is inpired in the [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview) Kaggle Challenge to use data to predict whether a person that was in the Titanic survived or not to the disaster.
 
-The purpose of this project was to apply new knowledge of Machine Learning and Neural Networks, as well as to practice new tools of the TensorFlow, pandas and Scikit-Learn.
+This is a well-known Kaggle challenge for begginners, and there is plenty of material available to learn and to improve your project. I worked in this project with the purpose of applying my new knowledge of Machine Learning and Neural Networks. With the material I found online I could learn new tools of the pandas, scipy and Scikit-Learn libraries.
 
 The different programs try different approaches to the problem and achieve different accuracies.
 
@@ -40,7 +40,7 @@ The challenge data can be found [here](https://www.kaggle.com/c/titanic/data) an
   * More deep data analysis and Features engineering
   * Hyperparameters tuning with sklearn.model_selection.SRandomizedSearchCV
   * The best model was RandomForestClassifier
-  * Accuracy of 0.78229
+  * Accuracy of 0.78947
 
 ## Acknowledgements
 
